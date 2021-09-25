@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-25T21:16:11Z" name="Suite" finished-at="2021-09-25T21:17:52Z" duration-ms="100702">
+    <groups>
+    </groups>
+    <test started-at="2021-09-25T21:16:11Z" name="Test on Chrome" finished-at="2021-09-25T21:16:54Z" duration-ms="42355">
+      <class name="com.ianarvizu.testing.Tests">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:11Z" name="beforeClass" finished-at="2021-09-25T21:16:17Z" duration-ms="5931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AddRemoveElements(java.lang.String)[pri:1, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:17Z" name="AddRemoveElements" description="Add/Remove Elements" finished-at="2021-09-25T21:16:34Z" duration-ms="17050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRemoveElements -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:34Z" name="getResult" finished-at="2021-09-25T21:16:34Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddRemoveElements status=SUCCESS method=Tests.AddRemoveElements(java.lang.String)[pri:1, instance:com.ianarvizu.testing.Tests@186f8716] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ContextMenu(java.lang.String)[pri:2, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:34Z" name="ContextMenu" description="Context Menu" finished-at="2021-09-25T21:16:41Z" duration-ms="6350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContextMenu -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:41Z" name="getResult" finished-at="2021-09-25T21:16:41Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContextMenu status=SUCCESS method=Tests.ContextMenu(java.lang.String)[pri:2, instance:com.ianarvizu.testing.Tests@186f8716] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DisappearingElements(java.lang.String)[pri:3, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:41Z" name="DisappearingElements" description="Disappearing Elements" finished-at="2021-09-25T21:16:42Z" duration-ms="1452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisappearingElements -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:42Z" name="getResult" finished-at="2021-09-25T21:16:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DisappearingElements status=SUCCESS method=Tests.DisappearingElements(java.lang.String)[pri:3, instance:com.ianarvizu.testing.Tests@186f8716] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="FileDownload(java.lang.String)[pri:4, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:42Z" name="FileDownload" description="File Download" finished-at="2021-09-25T21:16:48Z" duration-ms="5366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileDownload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:48Z" name="getResult" finished-at="2021-09-25T21:16:48Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FileDownload status=SUCCESS method=Tests.FileDownload(java.lang.String)[pri:4, instance:com.ianarvizu.testing.Tests@186f8716] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="FileUpload(java.lang.String)[pri:5, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:48Z" name="FileUpload" description="File Upload" finished-at="2021-09-25T21:16:51Z" duration-ms="3846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileUpload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:51Z" name="getResult" finished-at="2021-09-25T21:16:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FileUpload status=SUCCESS method=Tests.FileUpload(java.lang.String)[pri:5, instance:com.ianarvizu.testing.Tests@186f8716] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="JavaScriptAlerts(java.lang.String)[pri:6, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:51Z" name="JavaScriptAlerts" description="JavaScript Alerts" finished-at="2021-09-25T21:16:53Z" duration-ms="1614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptAlerts -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:53Z" name="getResult" finished-at="2021-09-25T21:16:53Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JavaScriptAlerts status=SUCCESS method=Tests.JavaScriptAlerts(java.lang.String)[pri:6, instance:com.ianarvizu.testing.Tests@186f8716] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ianarvizu.testing.Tests@186f8716]" started-at="2021-09-25T21:16:53Z" name="tearDown" finished-at="2021-09-25T21:16:54Z" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ianarvizu.testing.Tests -->
+    </test> <!-- Test on Chrome -->
+    <test started-at="2021-09-25T21:16:54Z" name="Test on FF" finished-at="2021-09-25T21:17:52Z" duration-ms="58309">
+      <class name="com.ianarvizu.testing.Tests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:16:11Z" name="beforeSuite" finished-at="2021-09-25T21:16:11Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:16:54Z" name="beforeClass" finished-at="2021-09-25T21:17:00Z" duration-ms="5990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AddRemoveElements(java.lang.String)[pri:1, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:00Z" name="AddRemoveElements" description="Add/Remove Elements" finished-at="2021-09-25T21:17:20Z" duration-ms="20498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRemoveElements -->
+        <test-method signature="ContextMenu(java.lang.String)[pri:2, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:20Z" name="ContextMenu" description="Context Menu" finished-at="2021-09-25T21:17:26Z" duration-ms="5494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContextMenu -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:20Z" name="getResult" finished-at="2021-09-25T21:17:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddRemoveElements status=SUCCESS method=Tests.AddRemoveElements(java.lang.String)[pri:1, instance:com.ianarvizu.testing.Tests@44a7bfbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:26Z" name="getResult" finished-at="2021-09-25T21:17:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContextMenu status=SUCCESS method=Tests.ContextMenu(java.lang.String)[pri:2, instance:com.ianarvizu.testing.Tests@44a7bfbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DisappearingElements(java.lang.String)[pri:3, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:26Z" name="DisappearingElements" description="Disappearing Elements" finished-at="2021-09-25T21:17:36Z" duration-ms="9803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisappearingElements -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:36Z" name="getResult" finished-at="2021-09-25T21:17:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DisappearingElements status=SUCCESS method=Tests.DisappearingElements(java.lang.String)[pri:3, instance:com.ianarvizu.testing.Tests@44a7bfbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="FileDownload(java.lang.String)[pri:4, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:36Z" name="FileDownload" description="File Download" finished-at="2021-09-25T21:17:46Z" duration-ms="10583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileDownload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:46Z" name="getResult" finished-at="2021-09-25T21:17:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FileDownload status=SUCCESS method=Tests.FileDownload(java.lang.String)[pri:4, instance:com.ianarvizu.testing.Tests@44a7bfbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="FileUpload(java.lang.String)[pri:5, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:46Z" name="FileUpload" description="File Upload" finished-at="2021-09-25T21:17:50Z" duration-ms="3876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileUpload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:50Z" name="getResult" finished-at="2021-09-25T21:17:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FileUpload status=SUCCESS method=Tests.FileUpload(java.lang.String)[pri:5, instance:com.ianarvizu.testing.Tests@44a7bfbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="JavaScriptAlerts(java.lang.String)[pri:6, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:50Z" name="JavaScriptAlerts" description="JavaScript Alerts" finished-at="2021-09-25T21:17:51Z" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptAlerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:51Z" name="tearDown" finished-at="2021-09-25T21:17:52Z" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:51Z" name="getResult" finished-at="2021-09-25T21:17:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JavaScriptAlerts status=SUCCESS method=Tests.JavaScriptAlerts(java.lang.String)[pri:6, instance:com.ianarvizu.testing.Tests@44a7bfbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.ianarvizu.testing.Tests@44a7bfbc]" started-at="2021-09-25T21:17:52Z" name="afterSuite" finished-at="2021-09-25T21:17:52Z" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.ianarvizu.testing.Tests -->
+    </test> <!-- Test on FF -->
+  </suite> <!-- Suite -->
+</testng-results>
